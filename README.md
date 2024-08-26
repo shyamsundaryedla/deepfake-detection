@@ -1,5 +1,3 @@
-Here’s a basic README file you can include in your deep fake detection GitHub repository:
-
 ---
 
 # Deep Fake Detection
