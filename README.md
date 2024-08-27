@@ -1,58 +1,36 @@
----
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-# Deep Fake Detection
+## Getting Started
 
-This repository contains an AI/ML-based solution for detecting face-swap-based deep fake videos. Leveraging cutting-edge machine learning algorithms, this project aims to ensure the authenticity of digital media by accurately identifying manipulated content.
-
-## Features
-
-- **Face-Swap Detection**: Identifies deep fake videos with high accuracy.
-- **Pre-trained Models**: Includes models trained on large datasets for effective detection.
-- **Easy Integration**: Simple to integrate into existing systems or workflows.
-- **Documentation**: Comprehensive documentation for setup, usage, and contribution.
-
-## Installation
-
-Clone this repository:
+First, run the development server:
 
 ```bash
-git clone https://github.com/yourusername/deep-fake-detection.git
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-Navigate to the project directory:
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```bash
-cd deep-fake-detection
-```
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Install the required dependencies:
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-```bash
-pip install -r requirements.txt
-```
+## Learn More
 
-## Usage
+To learn more about Next.js, take a look at the following resources:
 
-1. **Prepare the Dataset**: Ensure your dataset is structured according to the guidelines in the documentation.
-2. **Train the Model**: Use the provided scripts to train the model or load a pre-trained model.
-3. **Run Detection**: Apply the model to detect deep fakes in your video files.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Example command to run detection:
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-```bash
-python detect.py --input video.mp4 --model pretrained_model.h5
-```
+## Deploy on Vercel
 
-## Contributing
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Contributions are welcome! Please fork this repository, create a new branch for your feature or bug fix, and submit a pull request. Make sure to follow the contribution guidelines provided in the documentation.
-
-## References
-
-- [IEEE Paper on Deep Fake Detection](https://ieeexplore.ieee.org/document/9721302)
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
----
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
